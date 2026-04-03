@@ -605,7 +605,10 @@ body {
 .cjm-grid {
   display: grid;
   grid-template-columns: auto repeat(5, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
   width: 100%;
+  height: 100%;
+  flex: 1;
   gap: 0;
 }
 
@@ -616,14 +619,14 @@ body {
   background: var(--purple);
   color: var(--text-primary);
   font-family: var(--font-display);
-  font-weight: 600;
-  font-size: clamp(0.6rem, 1vw, 0.85rem);
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
+  font-weight: 700;
+  font-size: clamp(0.85rem, 1.3vw, 1.2rem);
+  padding: 0.8rem 1.4rem;
+  border-radius: 10px;
   white-space: nowrap;
-  margin: 0.3rem 0.5rem 0.3rem 0;
+  margin: 0.4rem 0.6rem 0.4rem 0;
   text-align: center;
-  min-width: 140px;
+  min-width: 160px;
 }
 
 .cjm-grid__label--orange {
@@ -632,10 +635,10 @@ body {
 }
 
 .cjm-grid__cell {
-  padding: 0.5rem 0.7rem;
+  padding: 0.6rem 0.9rem;
   font-family: var(--font-body);
-  font-size: clamp(0.5rem, 0.85vw, 0.72rem);
-  line-height: 1.4;
+  font-size: clamp(0.8rem, 1.25vw, 1.1rem);
+  line-height: 1.45;
   color: var(--text-secondary);
   border-left: 2px dashed var(--purple);
   border-bottom: 2px dashed var(--purple);
