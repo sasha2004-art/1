@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>the ca(s)t — G6 | Буткемп ЦУ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/print.css">
+</head>
+<body>
+
+  <!-- Slide Counter -->
+  <div class="slide-counter">
+    <span class="current" id="currSlide">01</span>
+    <span class="separator">/</span>
+    <span class="total" id="totalSlide">16</span>
+  </div>
+
+  <!-- Noise texture overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- ======================== SLIDES ======================== -->
+  <div class="presentation">
+
+    <!-- ======== SLIDE 1 — Title ======== -->
+    <section class="slide slide--gradient-mixed active">
+      <div class="deco-circle deco-circle--purple" style="width:600px;height:600px;top:-200px;right:-150px;"></div>
+      <div class="deco-circle deco-circle--orange" style="width:400px;height:400px;bottom:-150px;left:-100px;"></div>
+
+      <img src="img/лого_даун_2.svg" alt="Маскот" class="mascot mascot--hero animate-scale">
+
+      <span class="tag tag--purple animate-in">Буткемп ЦУ</span>
+      <h1 class="animate-in">the ca(s)t</h1>
+      <p class="animate-in text-large" style="max-width:40ch;">Сервис для поиска сокомандников и формирования команд среди студентов и школьников</p>
+
+      <div style="margin-top:auto; display:flex; align-items:center; gap:1.5rem;" class="animate-in">
+        <span class="tag tag--orange">G6</span>
+        <span class="tag tag--outline">IT-ПЛАТФОРМА</span>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 2 — Проблематика ======== -->
+    <section class="slide slide--gradient-purple">
+      <div class="accent-line accent-line--purple animate-in"></div>
+      <h2 class="animate-in">Студенты хотят участвовать,<br>но <span class="text-orange">не могут найти</span> команду</h2>
+
+      <div class="grid-3" style="margin-top:2rem;">
+        <div class="card card--orange animate-in">
+          <h3 style="font-size:2.5rem; color:var(--orange);">78%</h3>
+          <p>студентов хотят участвовать в хакатонах и олимпиадах</p>
+        </div>
+        <div class="card card--purple animate-in">
+          <h3 style="font-size:2.5rem; color:var(--purple);">62%</h3>
+          <p>не могут найти подходящих сокомандников с нужными навыками</p>
+        </div>
+        <div class="card animate-in">
+          <h3 class="text-muted" style="font-size:1.2rem;">Вывод</h3>
+          <p>Поиск команды отнимает время, нервы и возможности. Нет единого инструмента для мэтчинга по навыкам и интересам</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 3 — Целевая аудитория ======== -->
+    <section class="slide slide--gradient-orange">
+      <div class="accent-line accent-line--orange animate-in"></div>
+      <h2 class="animate-in">Целевая<br>аудитория</h2>
+      <p class="animate-in text-small text-muted">Студенты и школьники в IT-сфере</p>
+
+      <div class="grid-2" style="margin-top:2rem;">
+        <div>
+          <ul class="animate-in">
+            <li>Школьники (олимпиадники, будущие абитуриенты)</li>
+            <li>Студенты (бакалавриат, все курсы)</li>
+            <li>Магистранты</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="list-purple animate-in">
+            <li>Backend, Frontend, Mobile, ML, Дизайн</li>
+            <li>Продукт-менеджеры, аналитики</li>
+            <li>Любые IT-направления</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top:auto;">
+        <span class="tag tag--orange animate-in">IT-ПЛАТФОРМА</span>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 4 — Problems & Opportunities ======== -->
+    <section class="slide slide--dark">
+      <div class="grid-2" style="height:100%;">
+        <!-- Problems -->
+        <div class="animate-in">
+          <span class="tag tag--orange">Problems</span>
+          <h3 style="margin-top:1rem;">Барьеры</h3>
+          <ul style="margin-top:1rem;">
+            <li>Поиск сокомандников отнимает <span class="text-orange">время и нервы</span> — нет единой площадки</li>
+            <li>Непонимание навыков и опыта потенциальных тиммейтов до начала работы</li>
+            <li>Разрозненность информации: чаты, форумы, сарафанное радио — <span class="text-muted text-small">неэффективно</span></li>
+          </ul>
+        </div>
+        <!-- Opportunities -->
+        <div class="animate-in" style="padding-left:2rem; border-left:1px solid var(--bg-elevated);">
+          <span class="tag tag--purple">Opportunities</span>
+          <h3 style="margin-top:1rem;">Возможности</h3>
+          <ul class="list-purple" style="margin-top:1rem;">
+            <li>Умный мэтчинг по направлению, навыкам и статусу</li>
+            <li>Профили с олимпиадным опытом и достижениями</li>
+            <li>Интеграция с сообществом ЦУ для тестирования и развития</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 5 — Продукт: the ca(s)t ======== -->
+    <section class="slide slide--gradient-mixed text-center">
+      <div class="deco-circle deco-circle--purple" style="width:500px;height:500px;top:-100px;left:-200px;"></div>
+
+      <div class="accent-line accent-line--mixed animate-in" style="margin-inline:auto;"></div>
+      <h2 class="animate-in">the ca(s)t</h2>
+
+      <div class="card animate-in" style="max-width:650px; margin:2rem auto 0; text-align:left;">
+        <p style="color:var(--text-primary); font-size:clamp(1rem, 1.6vw, 1.25rem); line-height:1.7;">
+          Телеграм-бот и сервис для <span class="text-orange">поиска сокомандников</span>,
+          формирования команд и объединения пользователей по образовательному
+          и профессиональному треку с учётом <span class="text-purple">направления, навыков и статуса</span>.
+          В перспективе — поиск мероприятий и стажировок.
+        </p>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 6 — Функционал ======== -->
+    <section class="slide slide--dark">
+      <div class="accent-line accent-line--orange animate-in"></div>
+      <h2 class="animate-in">Ключевой функционал</h2>
+
+      <div class="grid-2" style="margin-top:2rem; align-items:start;">
+        <div class="animate-in">
+          <h3>Регистрация и профиль</h3>
+          <div style="display:flex; flex-direction:column; gap:0.8rem; margin-top:1.5rem;">
+            <div class="card" style="padding:0.8rem 1.2rem; border-left:3px solid var(--orange);">
+              <span style="font-weight:600; color:var(--orange);">Направление</span> — <span class="text-muted">иерархическое дерево: IT, Спорт, Искусство...</span>
+            </div>
+            <div class="card" style="padding:0.8rem 1.2rem; border-left:3px solid var(--purple);">
+              <span style="font-weight:600; color:var(--purple);">Статус</span> — <span class="text-muted">Школьник / Студент / Магистрант / Не учусь</span>
+            </div>
+            <div class="card" style="padding:0.8rem 1.2rem; border-left:3px solid var(--text-muted);">
+              <span style="font-weight:600;">Олимпиады</span> — <span class="text-muted">Достижения, ссылки, дипломы</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="animate-in" style="padding-left:2rem;">
+          <h3>Поиск и мэтчинг</h3>
+          <div style="display:flex; flex-direction:column; gap:0.8rem; margin-top:1.5rem;">
+            <div class="card" style="padding:0.8rem 1.2rem; border-left:3px solid var(--orange);">
+              <span style="font-weight:600; color:var(--orange);">Фильтры</span> — <span class="text-muted">По направлению, специальности, статусу</span>
+            </div>
+            <div class="card" style="padding:0.8rem 1.2rem; border-left:3px solid var(--purple);">
+              <span style="font-weight:600; color:var(--purple);">Режим профиля</span> — <span class="text-muted">Ищу команду / Ищу людей</span>
+            </div>
+            <div class="card" style="padding:0.8rem 1.2rem; border-left:3px solid var(--text-muted);">
+              <span style="font-weight:600;">Апдейт</span> — <span class="text-muted">Редактирование всех полей профиля</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 7 — CJM до ======== -->
+    <section class="slide slide--dark" style="padding:var(--pad) calc(var(--pad) * 0.5);">
+      <div class="accent-line accent-line--orange animate-in"></div>
+      <h2 class="animate-in" style="font-size:clamp(1.2rem, 2.2vw, 1.8rem);">CJM студента <span class="text-muted">до</span> the ca(s)t</h2>
+
+      <div class="cjm-grid animate-in" style="margin-top:1rem;">
+        <!-- Row 1: Этапы -->
+        <div class="cjm-grid__label-wrap cjm-grid__label-wrap--top"><div class="cjm-grid__label">Этапы</div></div>
+        <div class="cjm-grid__cell cjm-grid__cell--top">Поиск площадки</div>
+        <div class="cjm-grid__cell cjm-grid__cell--top">Попытка заявить о себе</div>
+        <div class="cjm-grid__cell cjm-grid__cell--top">Ожидание и фильтрация</div>
+        <div class="cjm-grid__cell cjm-grid__cell--top">Проверка и «притирка»</div>
+        <div class="cjm-grid__cell cjm-grid__cell--top">Результат (Ивент)</div>
+
+        <!-- Row 2: Действия -->
+        <div class="cjm-grid__label-wrap"><div class="cjm-grid__label">Действия</div></div>
+        <div class="cjm-grid__cell">Вступает в 10+ чатов в Telegram</div>
+        <div class="cjm-grid__cell">Пишет «ищу команду», повторяет раз в 3 часа</div>
+        <div class="cjm-grid__cell">Скроллит сотни сообщений, отвечает в ЛС</div>
+        <div class="cjm-grid__cell">Выясняет опыт через ЛС, договаривается о созвоне</div>
+        <div class="cjm-grid__cell">Команда собрана в спешке за ночь до дедлайна</div>
+
+        <!-- Row 3: Точки контакта -->
+        <div class="cjm-grid__label-wrap"><div class="cjm-grid__label">Точки контакта</div></div>
+        <div class="cjm-grid__cell">Telegram, VK, Discord</div>
+        <div class="cjm-grid__cell">Клавиатура смартфона, чат-листы</div>
+        <div class="cjm-grid__cell">Личные сообщения, уведомления</div>
+        <div class="cjm-grid__cell">Созвоны, Telegram-профили</div>
+        <div class="cjm-grid__cell">Google Таблица регистрации</div>
+
+        <!-- Row 4: Боли -->
+        <div class="cjm-grid__label-wrap"><div class="cjm-grid__label cjm-grid__label--orange">Боли</div></div>
+        <div class="cjm-grid__cell">Инфошум: сообщения улетают за секунды</div>
+        <div class="cjm-grid__cell">Невидимость: теряется среди 50 таких же</div>
+        <div class="cjm-grid__cell">Кот в мешке: люди без портфолио и мотивации</div>
+        <div class="cjm-grid__cell">Допрос в ЛС: часы на одинаковые вопросы</div>
+        <div class="cjm-grid__cell">Распад: участник сливается, замены нет</div>
+
+        <!-- Row 5: Эмоции -->
+        <div class="cjm-grid__label-wrap cjm-grid__label-wrap--no-bottom"><div class="cjm-grid__label">Эмоции</div></div>
+        <div class="cjm-grid__cell cjm-grid__cell--no-bottom">Растерянность</div>
+        <div class="cjm-grid__cell cjm-grid__cell--no-bottom">Усталость</div>
+        <div class="cjm-grid__cell cjm-grid__cell--no-bottom">Скепсис</div>
+        <div class="cjm-grid__cell cjm-grid__cell--no-bottom">Разочарование</div>
+        <div class="cjm-grid__cell cjm-grid__cell--no-bottom">Неудовлетворённость</div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 8 — CJM после ======== -->
+    <section class="slide slide--dark" style="padding:var(--pad) calc(var(--pad) * 0.5);">
+      <div class="accent-line accent-line--purple animate-in"></div>
+      <h2 class="animate-in" style="font-size:clamp(1.2rem, 2.2vw, 1.8rem);">CJM студента <span class="text-orange">после</span> the ca(s)t</h2>
+
+      <div class="cjm-table cjm-table--after animate-in" style="margin-top:1rem; overflow-x:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>1. Осознание</th>
+              <th>2. Поиск решения</th>
+              <th>3. Регистрация и подбор</th>
+              <th>4. Мэтч и общение</th>
+              <th>5. Командная работа</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="row-label">Цель</td>
+              <td>Хочет поучаствовать в ивенте, но нет компании</td>
+              <td>Найти способ быстро собрать команду</td>
+              <td>Заполнить анкету и увидеть подходящих людей</td>
+              <td>Подтвердить навыки и договориться</td>
+              <td>Успешно решить кейс / написать код</td>
+            </tr>
+            <tr>
+              <td class="row-label">Действия</td>
+              <td>Видит анонс хакатона, друзья заняты</td>
+              <td>Видит рекламу the ca(s)t, переходит</td>
+              <td>Заполняет профиль, теги навыков + мотивация</td>
+              <td>Листает карточки, ставит лайки, получает мэтч</td>
+              <td>Создают чат, распределяют задачи</td>
+            </tr>
+            <tr>
+              <td class="row-label">Точки контакта</td>
+              <td>Реклама ивента, соцсети, вузовские рассылки</td>
+              <td>Лендинг: «Собери команду за 5 минут»</td>
+              <td>the ca(s)t (Web/Bot), форма регистрации</td>
+              <td>the ca(s)t (чат/мэтчи), Telegram</td>
+              <td>Notion, Figma, Discord, Zoom</td>
+            </tr>
+            <tr>
+              <td class="row-label">Боли</td>
+              <td>Одиночество, страх пропустить крутой ивент</td>
+              <td>—</td>
+              <td>Лень заполнять длинную анкету</td>
+              <td>Неловкость первого сообщения</td>
+              <td>Возможны конфликты по темпу</td>
+            </tr>
+            <tr>
+              <td class="row-label">Эмоции</td>
+              <td>Тревога / Интерес</td>
+              <td>Надежда</td>
+              <td>Любопытство</td>
+              <td>Радость / Азарт</td>
+              <td>Уверенность / Драйв</td>
+            </tr>
+            <tr>
+              <td class="row-label">Решение</td>
+              <td>Интеграция с анонсами ивентов</td>
+              <td>Понятный лендинг с CTA</td>
+              <td>Смарт-анкета (теги + ползунок мотивации)</td>
+              <td>Алгоритм мэтчинга, ice-break шаблоны</td>
+              <td>Система отзывов и карма за участие</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 9 — Job Stories ======== -->
+    <section class="slide slide--gradient-orange">
+      <div class="accent-line accent-line--orange animate-in"></div>
+      <h2 class="animate-in">Job Stories</h2>
+      <p class="animate-in text-muted">Когда я... я хочу... чтобы...</p>
+
+      <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1.2rem;">
+        <div class="card card--orange animate-in" style="padding:1.2rem 1.5rem;">
+          <p style="color:var(--text-primary); line-height:1.7;">
+            <span class="text-orange" style="font-weight:600;">Когда я</span> узнаю о хакатоне и хочу участвовать,
+            <span class="text-orange" style="font-weight:600;">я хочу</span> быстро найти сокомандников с нужными навыками,
+            <span class="text-orange" style="font-weight:600;">чтобы</span> собрать сильную команду и не тратить дни на поиск.
+          </p>
+        </div>
+        <div class="card card--purple animate-in" style="padding:1.2rem 1.5rem;">
+          <p style="color:var(--text-primary); line-height:1.7;">
+            <span class="text-purple" style="font-weight:600;">Когда я</span> ищу людей для проекта,
+            <span class="text-purple" style="font-weight:600;">я хочу</span> видеть их опыт, направление и олимпиадные достижения,
+            <span class="text-purple" style="font-weight:600;">чтобы</span> принять осознанное решение.
+          </p>
+        </div>
+        <div class="card animate-in" style="padding:1.2rem 1.5rem; border-left:3px solid var(--orange-light);">
+          <p style="color:var(--text-primary); line-height:1.7;">
+            <span style="font-weight:600;">Когда я</span> только начинаю в IT,
+            <span style="font-weight:600;">я хочу</span> найти команду, которая примет новичка,
+            <span style="font-weight:600;">чтобы</span> получить реальный опыт командной работы.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 10 — Цикл продукта ======== -->
+    <section class="slide slide--gradient-purple text-center">
+      <div class="accent-line accent-line--purple animate-in" style="margin-inline:auto;"></div>
+      <h2 class="animate-in">Продукт — основа работы</h2>
+
+      <div class="animate-in" style="margin-top:3rem; display:flex; justify-content:center; align-items:center; gap:1rem; flex-wrap:wrap;">
+        <div class="card" style="padding:1.5rem 2rem; text-align:center; min-width:180px;">
+          <h3 style="font-size:1.1rem;">Новые пользователи</h3>
+        </div>
+        <div style="font-size:2rem; color:var(--orange);">→</div>
+        <div class="card card--orange" style="padding:1.5rem 2rem; text-align:center; min-width:180px; position:relative;">
+          <h3 style="font-size:1.1rem; color:var(--orange);">Довольные клиенты</h3>
+        </div>
+        <div style="font-size:2rem; color:var(--purple);">→</div>
+        <div class="card card--purple" style="padding:1.5rem 2rem; text-align:center; min-width:180px;">
+          <h3 style="font-size:1.1rem; color:var(--purple);">Довольная команда</h3>
+        </div>
+        <div style="font-size:2rem; color:var(--orange);">→</div>
+        <div class="card" style="padding:1.5rem 2rem; text-align:center; min-width:180px;">
+          <h3 style="font-size:1.1rem;">Новые пользователи</h3>
+        </div>
+      </div>
+
+      <p class="animate-in text-muted" style="margin-top:2rem; max-width:100%;">Крутой продукт + крутой маркетинг = рост</p>
+    </section>
+
+    <!-- ======== SLIDE 11 — Интеграция с ЦУ ======== -->
+    <section class="slide slide--dark">
+      <div class="accent-line accent-line--mixed animate-in"></div>
+      <h2 class="animate-in">Опора на ЦУ</h2>
+      <p class="animate-in text-muted">Почему нам нужен Центральный Университет</p>
+
+      <div class="grid-2" style="margin-top:2rem; align-items:start;">
+        <div class="animate-in" style="display:flex; flex-direction:column; gap:1.2rem;">
+          <div class="card card--orange">
+            <h3>Сообщество студентов</h3>
+            <p style="margin-top:0.5rem;">Доступ к сообществу ЦУ для тестирования продукта и привлечения первых пользователей</p>
+          </div>
+          <div class="card card--purple">
+            <h3>Экспертиза и менторство</h3>
+            <p style="margin-top:0.5rem;">Доступ к экспертизе команды университета для развития продукта</p>
+          </div>
+        </div>
+        <div class="animate-in" style="display:flex; flex-direction:column; gap:1.2rem;">
+          <div class="card">
+            <h3>Бренд и доверие</h3>
+            <p style="margin-top:0.5rem;">Бренд ЦУ повышает доверие пользователей к платформе</p>
+          </div>
+          <div class="card" style="border-left:3px solid var(--orange-light);">
+            <h3>Развитие вне буткемпа</h3>
+            <p style="margin-top:0.5rem;">Потенциальная поддержка в развитии продукта совместно с сообществом ЦУ и тестирование в кампусе</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 12 — Roadmap 1 ======== -->
+    <section class="slide slide--gradient-orange">
+      <div class="accent-line accent-line--mixed animate-in"></div>
+      <h2 class="animate-in">Roadmap</h2>
+      <p class="animate-in text-muted">От MVP к полноценной платформе</p>
+
+      <div class="roadmap animate-in" style="margin-top:2.5rem;">
+        <div class="roadmap-line"></div>
+        <div class="grid-4">
+          <div class="roadmap-item">
+            <div class="roadmap-number" style="background:var(--orange);">01</div>
+            <h3>Телеграм-бот MVP</h3>
+            <p class="text-small text-muted">Регистрация, профиль, выбор направления и статуса</p>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number" style="background:var(--orange);">02</div>
+            <h3>Поиск сокомандников</h3>
+            <p class="text-small text-muted">Фильтры по направлению, навыкам, статусу. Режим «Ищу команду / Ищу людей»</p>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number" style="background:var(--purple);">03</div>
+            <h3>Олимпиадный трекер</h3>
+            <p class="text-small text-muted">Профили с достижениями, ссылками и дипломами</p>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number" style="background:var(--purple);">04</div>
+            <h3>Веб-версия (API)</h3>
+            <p class="text-small text-muted">Полноценный веб-интерфейс с расширенным функционалом поиска</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 13 — Roadmap 2 ======== -->
+    <section class="slide slide--gradient-purple">
+      <div class="accent-line accent-line--purple animate-in"></div>
+      <h2 class="animate-in">Roadmap 2</h2>
+      <p class="animate-in text-muted">Масштабирование и новые фичи</p>
+
+      <div class="roadmap animate-in" style="margin-top:2.5rem;">
+        <div class="roadmap-line"></div>
+        <div class="grid-4">
+          <div class="roadmap-item">
+            <div class="roadmap-number" style="background:var(--orange);">05</div>
+            <h3>Поиск мероприятий</h3>
+            <p class="text-small text-muted">Агрегация хакатонов, олимпиад и конкурсов с возможностью записи</p>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number" style="background:var(--orange);">06</div>
+            <h3>Поиск стажировок</h3>
+            <p class="text-small text-muted">Интеграция с площадками стажировок, фильтрация по направлению</p>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number" style="background:var(--purple);">07</div>
+            <h3>RSS-агрегатор</h3>
+            <p class="text-small text-muted">Парсинг нескольких RSS-фидов для IT-студентов — вся информация в одном месте</p>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-number" style="background:var(--purple);">08</div>
+            <h3>Масштабирование</h3>
+            <p class="text-small text-muted">Расширение на другие университеты, партнёрства и интеграции</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 14 — Демо: экраны бота ======== -->
+    <section class="slide slide--gradient-mixed text-center">
+      <div class="deco-circle deco-circle--purple" style="width:500px;height:500px;bottom:-200px;right:-100px;"></div>
+      <div class="accent-line accent-line--mixed animate-in" style="margin-inline:auto;"></div>
+      <h2 class="animate-in">Демо</h2>
+      <p class="animate-in">Три экрана — весь путь пользователя</p>
+
+      <div class="grid-3 animate-in" style="margin-top:2rem; justify-items:center;">
+        <div class="card" style="text-align:center; padding:2rem 1.5rem;">
+          <h3>Регистрация</h3>
+          <p class="text-small text-muted" style="margin-top:0.5rem;">Имя, направление, статус, олимпиады — создание профиля за 2 минуты</p>
+        </div>
+        <div class="card" style="text-align:center; padding:2rem 1.5rem;">
+          <h3>Поиск</h3>
+          <p class="text-small text-muted" style="margin-top:0.5rem;">Фильтры по навыкам, направлению и статусу — находи нужных людей</p>
+        </div>
+        <div class="card" style="text-align:center; padding:2rem 1.5rem;">
+          <h3>Команда</h3>
+          <p class="text-small text-muted" style="margin-top:0.5rem;">Переключи режим, найди тиммейтов и формируй команду мечты</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 15 — Маскот и килл-фича ======== -->
+    <section class="slide slide--gradient-purple">
+      <div class="accent-line accent-line--purple animate-in"></div>
+      <h2 class="animate-in">Маскот the ca(s)t</h2>
+      <p class="animate-in">Наша килл-фича — живой персонаж платформы</p>
+
+      <div class="grid-2" style="margin-top:2rem;">
+        <div class="animate-in" style="display:flex; align-items:center; justify-content:center;">
+          <img src="img/лого_даун_2.svg" alt="Маскот the ca(s)t" style="width:clamp(180px, 25vw, 320px); filter:drop-shadow(0 8px 40px var(--purple-glow));">
+        </div>
+        <div class="animate-in" style="display:flex; flex-direction:column; gap:1.2rem;">
+          <div class="card card--purple">
+            <h3>Уникальный маскот</h3>
+            <p style="margin-top:0.5rem;">Узнаваемый персонаж, который сопровождает пользователя на всех этапах работы с сервисом</p>
+          </div>
+          <div class="card card--orange">
+            <h3>Самостоятельный продукт</h3>
+            <p style="margin-top:0.5rem;">Не продукт внутри ЦУ, а самостоятельный сервис с возможной интеграцией в экосистему университета</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 16 — Инновации ======== -->
+    <section class="slide slide--gradient-orange">
+      <div class="accent-line accent-line--orange animate-in"></div>
+      <h2 class="animate-in">Инновационность</h2>
+      <p class="animate-in">Новаторский подход к решению проблем ЦА</p>
+
+      <div style="margin-top:2rem; display:flex; flex-direction:column; gap:1.2rem;">
+        <div class="card card--orange animate-in">
+          <h3><span class="text-orange">Умный мэтчинг:</span></h3>
+          <p>Алгоритм подбора сокомандников по направлению, навыкам, олимпиадному опыту и статусу — не случайная выборка, а осмысленный подбор</p>
+        </div>
+        <div class="card card--purple animate-in">
+          <h3><span class="text-purple">Иерархическое дерево направлений:</span></h3>
+          <p>Гибкая система категоризации: IT → Backend/Frontend/ML/Mobile, Спорт, Искусство + возможность добавить «Другое»</p>
+        </div>
+        <div class="card animate-in" style="border-left:3px solid var(--orange-light);">
+          <h3>Единая точка входа:</h3>
+          <p>Телеграм-бот + веб-платформа: поиск команды, мероприятий, стажировок и RSS-лента IT-новостей — всё в одном месте</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!-- ======================== /SLIDES ======================== -->
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+/* ============================================
+   PRINT STYLES — PDF Export
+   Ctrl+P → Save as PDF
+   Настроено для формата A4 Landscape (16:9)
+   ============================================ */
+
+@media print {
+  /* --- Page Setup --- */
+  @page {
+    size: 297mm 210mm; /* A4 Landscape */
+    margin: 0;
+  }
+
+  /* --- Reset for Print --- */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  html, body {
+    width: 297mm;
+    height: auto;
+    overflow: visible;
+    background: var(--bg-primary) !important;
+  }
+
+  body {
+    font-size: 12pt;
+  }
+
+  /* --- All Slides Visible --- */
+  .presentation {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
+
+  .slide {
+    position: relative !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    transition: none !important;
+    width: 297mm;
+    height: 210mm;
+    page-break-after: always;
+    page-break-inside: avoid;
+    break-after: page;
+    break-inside: avoid;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15mm 20mm;
+  }
+
+  .slide:last-child {
+    page-break-after: auto;
+  }
+
+  /* --- Remove prev class transform --- */
+  .slide.prev {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  /* --- Hide interactive elements --- */
+  .progress-bar,
+  .slide-counter,
+  .nav-hint,
+  .noise-overlay {
+    display: none !important;
+  }
+
+  /* --- Typography adjustments --- */
+  .slide h1 {
+    font-size: 32pt;
+  }
+
+  .slide h2 {
+    font-size: 24pt;
+  }
+
+  .slide h3 {
+    font-size: 16pt;
+  }
+
+  .slide p {
+    font-size: 12pt;
+  }
+
+  .slide ul li,
+  .slide ol li {
+    font-size: 11pt;
+  }
+
+  /* --- Backgrounds print correctly --- */
+  .slide--dark {
+    background: var(--bg-primary) !important;
+  }
+
+  .slide--gradient-orange,
+  .slide--gradient-purple,
+  .slide--gradient-mixed {
+    background: var(--bg-primary) !important;
+  }
+
+  /* --- Cards --- */
+  .card {
+    break-inside: avoid;
+    background: var(--bg-secondary) !important;
+    border: 1px solid var(--bg-elevated) !important;
+  }
+
+  .card--orange {
+    border-left: 3px solid var(--orange) !important;
+  }
+
+  .card--purple {
+    border-left: 3px solid var(--purple) !important;
+  }
+
+  /* --- Split Layout --- */
+  .slide--split {
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .split-left,
+  .split-right {
+    padding: 15mm 20mm;
+  }
+
+  .split-right {
+    background: var(--bg-secondary) !important;
+  }
+
+  /* --- Images --- */
+  .slide-image {
+    max-height: 140mm;
+  }
+
+  .mascot {
+    filter: none;
+    width: 100px;
+  }
+
+  /* --- Disable animations --- */
+  .animate-in,
+  .animate-scale {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* --- Links show URL --- */
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: var(--text-muted);
+  }
+
+  /* --- Accent lines --- */
+  .accent-line {
+    background: var(--orange) !important;
+  }
+
+  .accent-line--purple {
+    background: var(--purple) !important;
+  }
+
+  .accent-line--mixed {
+    background: linear-gradient(90deg, var(--orange), var(--purple)) !important;
+  }
+
+  /* --- Decorative circles - hide in print --- */
+  .deco-circle {
+    display: none;
+  }
+
+  /* --- Blockquote border --- */
+  .slide blockquote {
+    border-left-color: var(--orange) !important;
+  }
+
+  /* --- Code blocks --- */
+  .code-block {
+    background: #0D0D0D !important;
+    border: 1px solid var(--bg-elevated) !important;
+    font-size: 9pt;
+  }
+
+  /* --- Tags --- */
+  .tag--orange {
+    background: var(--orange) !important;
+    color: var(--bg-primary) !important;
+  }
+
+  .tag--purple {
+    background: var(--purple) !important;
+    color: white !important;
+  }
+}
