@@ -5,7 +5,17 @@
       "Bash(python -m http.server 8090)",
       "Bash(python -m http.server 8091)",
       "mcp__plugin_playwright_playwright__browser_take_screenshot",
-      "mcp__plugin_playwright_playwright__browser_press_key"
+      "mcp__plugin_playwright_playwright__browser_press_key",
+      "Bash(python -m http.server 8888)",
+      "Bash(python -m http.server 8889 --directory \"C:/Users/user/Desktop/1/presentation\")",
+      "Bash(python -m http.server 8890 --directory \"C:/Users/user/Desktop/1\")",
+      "mcp__plugin_playwright_playwright__browser_tabs",
+      "mcp__plugin_playwright_playwright__browser_run_code",
+      "Bash(npx playwright:*)",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "Bash(tasklist)",
+      "mcp__plugin_playwright_playwright__browser_evaluate"
     ]
   }
 }

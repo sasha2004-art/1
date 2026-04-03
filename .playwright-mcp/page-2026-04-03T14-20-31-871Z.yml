@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 14 / 16
+  - generic [ref=e108]:
+    - heading "Демо" [level=2] [ref=e110]
+    - paragraph [ref=e111]: Три экрана — весь путь пользователя
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - heading "Регистрация" [level=3] [ref=e114]
+        - paragraph [ref=e115]: Имя, направление, статус, олимпиады — создание профиля за 2 минуты
+      - generic [ref=e116]:
+        - heading "Поиск" [level=3] [ref=e117]
+        - paragraph [ref=e118]: Фильтры по навыкам, направлению и статусу — находи нужных людей
+      - generic [ref=e119]:
+        - heading "Команда" [level=3] [ref=e120]
+        - paragraph [ref=e121]: Переключи режим, найди тиммейтов и формируй команду мечты

@@ -1,0 +1,261 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 01 / 16
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img "Маскот" [ref=e7]
+      - text: Буткемп ЦУ
+      - heading "the ca(s)t" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Сервис для поиска сокомандников и формирования команд среди студентов и школьников
+      - generic [ref=e10]:
+        - generic [ref=e11]: G6
+        - generic [ref=e12]: IT-ПЛАТФОРМА
+    - generic [ref=e13]:
+      - heading "Студенты хотят участвовать, но не могут найти команду" [level=2] [ref=e14]:
+        - text: Студенты хотят участвовать,
+        - text: но не могут найти команду
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - heading "78%" [level=3] [ref=e17]
+          - paragraph [ref=e18]: студентов хотят участвовать в хакатонах и олимпиадах
+        - generic [ref=e19]:
+          - heading "62%" [level=3] [ref=e20]
+          - paragraph [ref=e21]: не могут найти подходящих сокомандников с нужными навыками
+        - generic [ref=e22]:
+          - heading "Вывод" [level=3] [ref=e23]
+          - paragraph [ref=e24]: Поиск команды отнимает время, нервы и возможности. Нет единого инструмента для мэтчинга по навыкам и интересам
+    - generic [ref=e25]:
+      - heading "Целевая аудитория" [level=2] [ref=e26]:
+        - text: Целевая
+        - text: аудитория
+      - paragraph [ref=e27]: Студенты и школьники в IT-сфере
+      - generic [ref=e28]:
+        - list [ref=e30]:
+          - listitem [ref=e31]: Школьники (олимпиадники, будущие абитуриенты)
+          - listitem [ref=e32]: Студенты (бакалавриат, все курсы)
+          - listitem [ref=e33]: Магистранты
+        - list [ref=e35]:
+          - listitem [ref=e36]: Backend, Frontend, Mobile, ML, Дизайн
+          - listitem [ref=e37]: Продукт-менеджеры, аналитики
+          - listitem [ref=e38]: Любые IT-направления
+      - generic [ref=e39]: IT-ПЛАТФОРМА
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - text: Problems
+        - heading "Барьеры" [level=3] [ref=e43]
+        - list [ref=e44]:
+          - listitem [ref=e45]: Поиск сокомандников отнимает время и нервы — нет единой площадки
+          - listitem [ref=e46]: Непонимание навыков и опыта потенциальных тиммейтов до начала работы
+          - listitem [ref=e47]: "Разрозненность информации: чаты, форумы, сарафанное радио — неэффективно"
+      - generic [ref=e48]:
+        - text: Opportunities
+        - heading "Возможности" [level=3] [ref=e49]
+        - list [ref=e50]:
+          - listitem [ref=e51]: Умный мэтчинг по направлению, навыкам и статусу
+          - listitem [ref=e52]: Профили с олимпиадным опытом и достижениями
+          - listitem [ref=e53]: Интеграция с сообществом ЦУ для тестирования и развития
+    - generic [ref=e54]:
+      - heading "the ca(s)t" [level=2] [ref=e56]
+      - paragraph [ref=e58]: Телеграм-бот и сервис для поиска сокомандников, формирования команд и объединения пользователей по образовательному и профессиональному треку с учётом направления, навыков и статуса. В перспективе — поиск мероприятий и стажировок.
+    - generic [ref=e59]:
+      - heading "Ключевой функционал" [level=2] [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - heading "Регистрация и профиль" [level=3] [ref=e63]
+          - generic [ref=e64]:
+            - generic [ref=e65]: "Направление — иерархическое дерево: IT, Спорт, Искусство..."
+            - generic [ref=e66]: Статус — Школьник / Студент / Магистрант / Не учусь
+            - generic [ref=e67]: Олимпиады — Достижения, ссылки, дипломы
+        - generic [ref=e68]:
+          - heading "Поиск и мэтчинг" [level=3] [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e71]: Фильтры — По направлению, специальности, статусу
+            - generic [ref=e72]: Режим профиля — Ищу команду / Ищу людей
+            - generic [ref=e73]: Апдейт — Редактирование всех полей профиля
+    - generic [ref=e74]:
+      - heading "CJM студента до the ca(s)t" [level=2] [ref=e75]
+      - generic [ref=e76]:
+        - generic [ref=e78]: Этапы
+        - generic [ref=e79]: Поиск площадки
+        - generic [ref=e80]: Попытка заявить о себе
+        - generic [ref=e81]: Ожидание и фильтрация
+        - generic [ref=e82]: Проверка и «притирка»
+        - generic [ref=e83]: Результат (Ивент)
+        - generic [ref=e85]: Действия
+        - generic [ref=e86]: Вступает в 10+ чатов в Telegram
+        - generic [ref=e87]: Пишет «ищу команду», повторяет раз в 3 часа
+        - generic [ref=e88]: Скроллит сотни сообщений, отвечает в ЛС
+        - generic [ref=e89]: Выясняет опыт через ЛС, договаривается о созвоне
+        - generic [ref=e90]: Команда собрана в спешке за ночь до дедлайна
+        - generic [ref=e92]: Точки контакта
+        - generic [ref=e93]: Telegram, VK, Discord
+        - generic [ref=e94]: Клавиатура смартфона, чат-листы
+        - generic [ref=e95]: Личные сообщения, уведомления
+        - generic [ref=e96]: Созвоны, Telegram-профили
+        - generic [ref=e97]: Google Таблица регистрации
+        - generic [ref=e99]: Боли
+        - generic [ref=e100]: "Инфошум: сообщения улетают за секунды"
+        - generic [ref=e101]: "Невидимость: теряется среди 50 таких же"
+        - generic [ref=e102]: "Кот в мешке: люди без портфолио и мотивации"
+        - generic [ref=e103]: "Допрос в ЛС: часы на одинаковые вопросы"
+        - generic [ref=e104]: "Распад: участник сливается, замены нет"
+        - generic [ref=e106]: Эмоции
+        - generic [ref=e107]: Растерянность
+        - generic [ref=e108]: Усталость
+        - generic [ref=e109]: Скепсис
+        - generic [ref=e110]: Разочарование
+        - generic [ref=e111]: Неудовлетворённость
+    - generic [ref=e112]:
+      - heading "CJM студента после the ca(s)t" [level=2] [ref=e113]
+      - generic [ref=e114]:
+        - generic [ref=e116]: Этапы
+        - generic [ref=e117]: Осознание
+        - generic [ref=e118]: Поиск решения
+        - generic [ref=e119]: Регистрация и подбор
+        - generic [ref=e120]: Мэтч и общение
+        - generic [ref=e121]: Командная работа
+        - generic [ref=e123]: Действия
+        - generic [ref=e124]: Видит анонс хакатона, друзья заняты
+        - generic [ref=e125]: Видит the ca(s)t, переходит
+        - generic [ref=e126]: Заполняет профиль, теги навыков + мотивация
+        - generic [ref=e127]: Листает карточки, получает мэтч
+        - generic [ref=e128]: Создают чат, распределяют задачи
+        - generic [ref=e130]: Точки контакта
+        - generic [ref=e131]: Соцсети, вузовские рассылки
+        - generic [ref=e132]: "Лендинг: «Собери команду за 5 минут»"
+        - generic [ref=e133]: the ca(s)t (Web/Bot)
+        - generic [ref=e134]: the ca(s)t (чат/мэтчи), Telegram
+        - generic [ref=e135]: Notion, Figma, Discord, Zoom
+        - generic [ref=e137]: Боли
+        - generic [ref=e138]: Страх пропустить крутой ивент
+        - generic [ref=e139]: "--"
+        - generic [ref=e140]: Лень заполнять длинную анкету
+        - generic [ref=e141]: Неловкость первого сообщения
+        - generic [ref=e142]: Возможны конфликты по темпу
+        - generic [ref=e144]: Эмоции
+        - generic [ref=e145]: Тревога / Интерес
+        - generic [ref=e146]: Надежда
+        - generic [ref=e147]: Любопытство
+        - generic [ref=e148]: Радость / Азарт
+        - generic [ref=e149]: Уверенность / Драйв
+        - generic [ref=e151]: Решение
+        - generic [ref=e152]: Интеграция с анонсами ивентов
+        - generic [ref=e153]: Понятный лендинг с CTA
+        - generic [ref=e154]: Смарт-анкета (теги + мотивация)
+        - generic [ref=e155]: Алгоритм мэтчинга, ice-break шаблоны
+        - generic [ref=e156]: Отзывы и карма за участие
+    - generic [ref=e157]:
+      - heading "Job Stories" [level=2] [ref=e158]
+      - paragraph [ref=e159]: Когда я... я хочу... чтобы...
+      - generic [ref=e160]:
+        - paragraph [ref=e162]: Когда я узнаю о хакатоне и хочу участвовать, я хочу быстро найти сокомандников с нужными навыками, чтобы собрать сильную команду и не тратить дни на поиск.
+        - paragraph [ref=e164]: Когда я ищу людей для проекта, я хочу видеть их опыт, направление и олимпиадные достижения, чтобы принять осознанное решение.
+        - paragraph [ref=e166]: Когда я только начинаю в IT, я хочу найти команду, которая примет новичка, чтобы получить реальный опыт командной работы.
+    - generic [ref=e167]:
+      - heading "Продукт — основа работы" [level=2] [ref=e168]
+      - generic [ref=e169]:
+        - heading "Новые пользователи" [level=3] [ref=e171]
+        - generic [ref=e172]: →
+        - generic [ref=e173]:
+          - generic [ref=e174]: 👑
+          - heading "Довольные клиенты" [level=3] [ref=e175]
+        - generic [ref=e176]: →
+        - heading "Довольная команда" [level=3] [ref=e178]
+        - generic [ref=e179]: →
+        - heading "Новые пользователи" [level=3] [ref=e181]
+      - paragraph [ref=e182]: Крутой продукт + крутой маркетинг = рост
+    - generic [ref=e183]:
+      - heading "Опора на ЦУ" [level=2] [ref=e184]
+      - paragraph [ref=e185]: Почему нам нужен Центральный Университет
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - heading "Сообщество студентов" [level=3] [ref=e189]
+            - paragraph [ref=e190]: Доступ к сообществу ЦУ для тестирования продукта и привлечения первых пользователей
+          - generic [ref=e191]:
+            - heading "Экспертиза и менторство" [level=3] [ref=e192]
+            - paragraph [ref=e193]: Доступ к экспертизе команды университета для развития продукта
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - heading "Бренд и доверие" [level=3] [ref=e196]
+            - paragraph [ref=e197]: Бренд ЦУ повышает доверие пользователей к платформе
+          - generic [ref=e198]:
+            - heading "Развитие вне буткемпа" [level=3] [ref=e199]
+            - paragraph [ref=e200]: Потенциальная поддержка в развитии продукта совместно с сообществом ЦУ и тестирование в кампусе
+    - generic [ref=e201]:
+      - heading "Roadmap" [level=2] [ref=e202]
+      - paragraph [ref=e203]: От MVP к полноценной платформе
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: "01"
+          - heading "Телеграм-бот MVP" [level=3] [ref=e208]
+          - paragraph [ref=e209]: Регистрация, профиль, выбор направления и статуса
+        - generic [ref=e210]:
+          - generic [ref=e211]: "02"
+          - heading "Поиск сокомандников" [level=3] [ref=e212]
+          - paragraph [ref=e213]: Фильтры по направлению, навыкам, статусу. Режим «Ищу команду / Ищу людей»
+        - generic [ref=e214]:
+          - generic [ref=e215]: "03"
+          - heading "Олимпиадный трекер" [level=3] [ref=e216]
+          - paragraph [ref=e217]: Профили с достижениями, ссылками и дипломами
+        - generic [ref=e218]:
+          - generic [ref=e219]: "04"
+          - heading "Веб-версия (API)" [level=3] [ref=e220]
+          - paragraph [ref=e221]: Полноценный веб-интерфейс с расширенным функционалом поиска
+    - generic [ref=e222]:
+      - heading "Roadmap 2" [level=2] [ref=e223]
+      - paragraph [ref=e224]: Масштабирование и новые фичи
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - generic [ref=e228]: "05"
+          - heading "Поиск мероприятий" [level=3] [ref=e229]
+          - paragraph [ref=e230]: Агрегация хакатонов, олимпиад и конкурсов с возможностью записи
+        - generic [ref=e231]:
+          - generic [ref=e232]: "06"
+          - heading "Поиск стажировок" [level=3] [ref=e233]
+          - paragraph [ref=e234]: Интеграция с площадками стажировок, фильтрация по направлению
+        - generic [ref=e235]:
+          - generic [ref=e236]: "07"
+          - heading "RSS-агрегатор" [level=3] [ref=e237]
+          - paragraph [ref=e238]: Парсинг нескольких RSS-фидов для IT-студентов — вся информация в одном месте
+        - generic [ref=e239]:
+          - generic [ref=e240]: "08"
+          - heading "Масштабирование" [level=3] [ref=e241]
+          - paragraph [ref=e242]: Расширение на другие университеты, партнёрства и интеграции
+    - generic [ref=e243]:
+      - heading "Демо" [level=2] [ref=e245]
+      - paragraph [ref=e246]: Три экрана — весь путь пользователя
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - heading "Регистрация" [level=3] [ref=e249]
+          - paragraph [ref=e250]: Имя, направление, статус, олимпиады — создание профиля за 2 минуты
+        - generic [ref=e251]:
+          - heading "Поиск" [level=3] [ref=e252]
+          - paragraph [ref=e253]: Фильтры по навыкам, направлению и статусу — находи нужных людей
+        - generic [ref=e254]:
+          - heading "Команда" [level=3] [ref=e255]
+          - paragraph [ref=e256]: Переключи режим, найди тиммейтов и формируй команду мечты
+    - generic [ref=e257]:
+      - heading "Маскот the ca(s)t" [level=2] [ref=e258]
+      - paragraph [ref=e259]: Наша килл-фича — живой персонаж платформы
+      - generic [ref=e260]:
+        - img "Маскот the ca(s)t" [ref=e262]
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - heading "Уникальный маскот" [level=3] [ref=e265]
+            - paragraph [ref=e266]: Узнаваемый персонаж, который сопровождает пользователя на всех этапах работы с сервисом
+          - generic [ref=e267]:
+            - heading "Самостоятельный продукт" [level=3] [ref=e268]
+            - paragraph [ref=e269]: Не продукт внутри ЦУ, а самостоятельный сервис с возможной интеграцией в экосистему университета
+    - generic [ref=e270]:
+      - heading "Инновационность" [level=2] [ref=e271]
+      - paragraph [ref=e272]: Новаторский подход к решению проблем ЦА
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - heading "Умный мэтчинг:" [level=3] [ref=e275]
+          - paragraph [ref=e276]: Алгоритм подбора сокомандников по направлению, навыкам, олимпиадному опыту и статусу — не случайная выборка, а осмысленный подбор
+        - generic [ref=e277]:
+          - heading "Иерархическое дерево направлений:" [level=3] [ref=e278]
+          - paragraph [ref=e279]: "Гибкая система категоризации: IT → Backend/Frontend/ML/Mobile, Спорт, Искусство + возможность добавить «Другое»"
+        - generic [ref=e280]:
+          - heading "Единая точка входа:" [level=3] [ref=e281]
+          - paragraph [ref=e282]: "Телеграм-бот + веб-платформа: поиск команды, мероприятий, стажировок и RSS-лента IT-новостей — всё в одном месте"

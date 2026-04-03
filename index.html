@@ -13,7 +13,7 @@
   <div class="slide-counter">
     <span class="current" id="currSlide">01</span>
     <span class="separator">/</span>
-    <span class="total" id="totalSlide">16</span>
+    <span class="total" id="totalSlide">17</span>
   </div>
 
   <!-- Noise texture overlay -->
@@ -35,7 +35,6 @@
 
       <div style="margin-top:auto; display:flex; align-items:center; gap:1.5rem;" class="animate-in">
         <span class="tag tag--orange">G6</span>
-        <span class="tag tag--outline">IT-ПЛАТФОРМА</span>
       </div>
     </section>
 
@@ -46,16 +45,18 @@
 
       <div class="grid-3" style="margin-top:2rem;">
         <div class="card card--orange animate-in">
-          <h3 style="font-size:2.5rem; color:var(--orange);">78%</h3>
+          <h3 style="font-size:2.5rem; color:var(--orange);">71%</h3>
           <p>студентов хотят участвовать в хакатонах и олимпиадах</p>
+          <p class="text-small text-muted" style="margin-top:0.5rem;">НАФИ, 2024</p>
         </div>
         <div class="card card--purple animate-in">
           <h3 style="font-size:2.5rem; color:var(--purple);">62%</h3>
           <p>не могут найти подходящих сокомандников с нужными навыками</p>
+          <p class="text-small text-muted" style="margin-top:0.5rem;">НАФИ, 2024</p>
         </div>
         <div class="card animate-in">
           <h3 class="text-muted" style="font-size:1.2rem;">Вывод</h3>
-          <p>Поиск команды отнимает время, нервы и возможности. Нет единого инструмента для мэтчинга по навыкам и интересам</p>
+          <p>Поиск команды отнимает время, нервы и возможности. Нет единого инструмента для поиска сокомандников по навыкам и бэкграунду</p>
         </div>
       </div>
     </section>
@@ -64,7 +65,7 @@
     <section class="slide slide--gradient-orange">
       <div class="accent-line accent-line--orange animate-in"></div>
       <h2 class="animate-in">Целевая<br>аудитория</h2>
-      <p class="animate-in text-small text-muted">Студенты и школьники в IT-сфере</p>
+      <p class="animate-in text-small text-muted">Студенты и школьники</p>
 
       <div class="grid-2" style="margin-top:2rem;">
         <div>
@@ -78,13 +79,12 @@
           <ul class="list-purple animate-in">
             <li>Backend, Frontend, Mobile, ML, Дизайн</li>
             <li>Продукт-менеджеры, аналитики</li>
-            <li>Любые IT-направления</li>
+            <li>Любые направления</li>
           </ul>
         </div>
       </div>
 
       <div style="margin-top:auto;">
-        <span class="tag tag--orange animate-in">IT-ПЛАТФОРМА</span>
       </div>
     </section>
 
@@ -169,7 +169,47 @@
       </div>
     </section>
 
-    <!-- ======== SLIDE 7 — CJM до ======== -->
+    <!-- ======== SLIDE 7 — ICE-приоритизация ======== -->
+    <section class="slide slide--ice">
+      <div class="accent-line accent-line--mixed animate-in"></div>
+      <h2 class="animate-in">ICE-приоритизация функций</h2>
+      <p class="animate-in text-muted" style="margin-bottom:1.5rem;">Что строим в первую очередь</p>
+
+      <div class="ice-columns animate-in">
+        <!-- MVP -->
+        <div class="ice-block">
+          <div class="ice-block__header ice-block__header--mvp">MVP</div>
+          <div class="ice-item"><span class="ice-item__name">Регистрация и базовый профиль</span><span class="ice-item__score ice-item__score--mvp">9.3</span></div>
+          <div class="ice-item"><span class="ice-item__name">Редактирование профиля</span><span class="ice-item__score ice-item__score--mvp">9.0</span></div>
+          <div class="ice-item"><span class="ice-item__name">Поиск сокомандников</span><span class="ice-item__score ice-item__score--mvp">8.7</span></div>
+          <div class="ice-item"><span class="ice-item__name">Статус «Ищу команду / Ищу людей»</span><span class="ice-item__score ice-item__score--mvp">8.7</span></div>
+        </div>
+
+        <!-- Вторая очередь -->
+        <div class="ice-block">
+          <div class="ice-block__header ice-block__header--second">Вторая очередь</div>
+          <div class="ice-item"><span class="ice-item__name">Иерархия направлений</span><span class="ice-item__score ice-item__score--second">8.3</span></div>
+          <div class="ice-item"><span class="ice-item__name">Образовательные поля по статусу</span><span class="ice-item__score ice-item__score--second">8.3</span></div>
+          <div class="ice-item"><span class="ice-item__name">Фильтры поиска</span><span class="ice-item__score ice-item__score--second">8.3</span></div>
+          <div class="ice-item"><span class="ice-item__name">Олимпиадные достижения</span><span class="ice-item__score ice-item__score--second">7.3</span></div>
+        </div>
+
+        <!-- Post-MVP -->
+        <div class="ice-block">
+          <div class="ice-block__header ice-block__header--post">Post-MVP</div>
+          <div class="ice-item"><span class="ice-item__name">Поиск мероприятий</span><span class="ice-item__score ice-item__score--post">5.3</span></div>
+          <div class="ice-item"><span class="ice-item__name">Поиск стажировок</span><span class="ice-item__score ice-item__score--post">5.3</span></div>
+        </div>
+      </div>
+
+      <div class="animate-in" style="margin-top:auto; padding:1rem 1.5rem; background:var(--bg-secondary); border-radius:10px; border-left:3px solid var(--purple);">
+        <p style="color:var(--text-primary); font-size:clamp(0.85rem, 1.3vw, 1.05rem); line-height:1.6;">
+          На старте главная ценность продукта — <strong style="color:var(--purple);">matchmaking пользователей</strong>, а не мероприятия и стажировки.
+        </p>
+      </div>
+    </section>
+
+    <!-- ======== SLIDE 8 — CJM до ======== -->
     <section class="slide slide--dark" style="padding:1.5rem 2rem;">
       <h2 class="animate-in" style="font-size:clamp(1.2rem, 2.2vw, 1.8rem); margin-bottom:0.8rem;">CJM студента <span class="text-muted">до</span> the ca(s)t</h2>
 
@@ -294,8 +334,8 @@
         </div>
         <div class="card animate-in" style="padding:1.2rem 1.5rem; border-left:3px solid var(--orange-light);">
           <p style="color:var(--text-primary); line-height:1.7;">
-            <span style="font-weight:600;">Когда я</span> только начинаю в IT,
-            <span style="font-weight:600;">я хочу</span> найти команду, которая примет новичка,
+            <span style="font-weight:600;">Когда я</span> только начинаю свой путь в IT,
+            <span style="font-weight:600;">я хочу</span> найти команду, готовую принять новичка,
             <span style="font-weight:600;">чтобы</span> получить реальный опыт командной работы.
           </p>
         </div>
@@ -452,7 +492,7 @@
     <section class="slide slide--gradient-purple">
       <div class="accent-line accent-line--purple animate-in"></div>
       <h2 class="animate-in">Маскот the ca(s)t</h2>
-      <p class="animate-in">Наша килл-фича — живой персонаж платформы</p>
+      <p class="animate-in">Живой персонаж платформы</p>
 
       <div class="grid-2" style="margin-top:2rem;">
         <div class="animate-in" style="display:flex; align-items:center; justify-content:center;">

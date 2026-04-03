@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 02 / 16
+  - generic [ref=e4]:
+    - heading "Студенты хотят участвовать, но не могут найти команду" [level=2] [ref=e6]:
+      - text: Студенты хотят участвовать,
+      - text: но не могут найти команду
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - heading "78%" [level=3] [ref=e9]
+        - paragraph [ref=e10]: студентов хотят участвовать в хакатонах и олимпиадах
+      - generic [ref=e11]:
+        - heading "62%" [level=3] [ref=e12]
+        - paragraph [ref=e13]: не могут найти подходящих сокомандников с нужными навыками
+      - generic [ref=e14]:
+        - heading "Вывод" [level=3] [ref=e15]
+        - paragraph [ref=e16]: Поиск команды отнимает время, нервы и возможности. Нет единого инструмента для мэтчинга по навыкам и интересам
