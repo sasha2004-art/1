@@ -15,7 +15,12 @@
       "mcp__plugin_playwright_playwright__browser_snapshot",
       "mcp__plugin_playwright_playwright__browser_resize",
       "Bash(tasklist)",
-      "mcp__plugin_playwright_playwright__browser_evaluate"
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Bash(cp \"C:/Users/user/Downloads/фото будкемп/АЛександр Князев.jpg\" \"C:/Users/user/Desktop/1/img/team-alexander.jpg\")",
+      "Bash(cp \"C:/Users/user/Downloads/фото будкемп/Анастасия лапатина.jpg\" \"C:/Users/user/Desktop/1/img/team-anastasia.jpg\")",
+      "Bash(cp \"C:/Users/user/Downloads/фото будкемп/Георгий филипов.jpg\" \"C:/Users/user/Desktop/1/img/team-georgiy.jpg\")",
+      "Bash(cp \"C:/Users/user/Downloads/фото будкемп/вячеслав самуйленко.jpg\" \"C:/Users/user/Desktop/1/img/team-vyacheslav.jpg\")",
+      "Bash(cp \"C:/Users/user/Downloads/фото будкемп/ксения травникова.jpg\" \"C:/Users/user/Desktop/1/img/team-kseniya.jpg\")"
     ]
   }
 }
